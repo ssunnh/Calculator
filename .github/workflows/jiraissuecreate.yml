@@ -7,15 +7,13 @@ on:
 jobs:
   checkstyle_job:
     runs-on: ubuntu-latest
-    name: Checkstyle job
+    name: JiraissueCreate
     steps:
-    - name: JiraissueCreate
-      uses: atlassian/gajira-create@v3
+    - name: Jira Create issue
+      uses: atlassian/gajira-create@v2.0.1
       with:
         project: RMP
         issuetype: Task
         summary: |
           github action create
-        description: |
-          Compare branch
       
