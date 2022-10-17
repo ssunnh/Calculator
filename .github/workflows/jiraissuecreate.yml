@@ -10,7 +10,7 @@ jobs:
     name: Checkstyle job
     steps:
     - name: JiraissueCreate
-      uses: atlassian/gajira-create@v2.0.1
+      uses: atlassian/gajira-create@v3
       with:
         project: RMP
         issuetype: Task
