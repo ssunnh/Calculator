@@ -12,12 +12,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - name: JiraissueCreate
-      uses: atlassian/gajira-create@master
+      uses: atlassian/gajira-create@v2.0.1
       with:
         project: RMP
         issuetype: Task
         summary: |
-          Build completed for ${{ github.repository }}
+          github action create
         description: |
           Compare branch
       
