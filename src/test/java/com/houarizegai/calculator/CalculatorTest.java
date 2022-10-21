@@ -33,5 +33,16 @@ class CalculatorTest {
         }
 /*
 */
+        int a = 1;
+        if(a==1){
+            
+        } else{
+        }
+        
+   int a = 1;
+        if(a==1){
+            
+        } else{
+        }
     }
 }
